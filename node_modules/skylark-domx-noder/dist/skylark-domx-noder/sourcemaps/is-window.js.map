@@ -1,0 +1,1 @@
+{"version":3,"sources":["is-window.js"],"names":["define","types","noder","isWindow"],"mappings":";;;;;;;AAAAA,QACI,sBACA,WACF,SAASC,EAAMC,GAEb,OAAOA,EAAMC,SAAWF,EAAME","file":"../is-window.js","sourcesContent":["define([\r\n    \"skylark-langx-types\",\r\n    \"./noder\"\r\n],function(types,noder){\r\n   \r\n    return noder.isWindow = types.isWindow;\r\n\t\r\n})"]}

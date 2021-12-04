@@ -1,0 +1,1 @@
+{"version":3,"sources":["body.js"],"names":["define","noder","body","document"],"mappings":";;;;;;;AAAAA,QACC,WACC,SAASC,GAKV,OAAOA,EAAMC,KAJb,WACC,OAAQC,SAASD","file":"../body.js","sourcesContent":["define([\r\n\t\"./noder\"\r\n],function(noder){\r\n\tfunction body() {\r\n\t\treturn  document.body;\r\n\t}\r\n\t\r\n\treturn noder.body = body;\r\n});"]}

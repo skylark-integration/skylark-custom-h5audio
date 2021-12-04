@@ -1,0 +1,14 @@
+define([
+	"./noder"
+],function(noder){
+ 
+    function isEditable (el) {
+      if (!el) { return false; } // no parents were editable
+      if (el.contentEditable === 'false') { return false; } // stop the lookup
+      if (el.contentEditable === 'true') { return true; } // found a contentEditable element in the chain
+      return isEditable(el.parentNode); // contentEditable is set to 'inherit'
+    }
+
+	
+	return noder.isEditable = isEditable;
+});
