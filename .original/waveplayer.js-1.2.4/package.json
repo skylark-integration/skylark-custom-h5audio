@@ -1,0 +1,48 @@
+{
+  "name": "waveplayer",
+  "version": "1.2.4",
+  "description": "A HTML and JavaScript based audio player with a waveform view",
+  "main": "dist/waveplayer.min.js",
+  "jsnext:main": "src/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/rollup --config",
+    "watch": "./node_modules/.bin/rollup --config --watch",
+    "lint": "./node_modules/.bin/eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaeldzjap/waveplayer.js.git"
+  },
+  "keywords": [
+    "audio",
+    "waveform",
+    "canvas",
+    "html",
+    "javascript"
+  ],
+  "author": "Michael Dzjaparidze",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaeldzjap/waveplayer.js/issues"
+  },
+  "homepage": "https://github.com/michaeldzjap/waveplayer.js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-external-helpers": "^7.8.3",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.2",
+    "rollup": "^2.3.4",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-uglify": "^6.0.4"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.9.2"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "A playlist example for waveplayer.js",
+  "main": "dist/playlist.js",
+  "scripts": {
+    "build": "node -r @babel/register ./node_modules/.bin/webpack --progress --hide-modules",
+    "watch": "node -r @babel/register ./node_modules/.bin/webpack --watch --progress --hide-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaeldzjap/waveplayer.js.git"
+  },
+  "keywords": [
+    "audio",
+    "waveform",
+    "canvas",
+    "html",
+    "javascript"
+  ],
+  "author": "Michael Dzjaparidze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaeldzjap/waveplayer.js/issues"
+  },
+  "homepage": "https://github.com/michaeldzjap/waveplayer.js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/register": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.9.2",
+    "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
+    "bulma": "^0.8.1"
+  }
+}
